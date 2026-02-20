@@ -1,7 +1,10 @@
 const cacheName = 'aplus-guide-v1';
 const staticAssets = [
   './',
-  './index.html'
+  './index.html',
+  './manifest.json',
+  './logo.png',
+  './document.pdf'
 ];
 
 self.addEventListener('install', async e => {
